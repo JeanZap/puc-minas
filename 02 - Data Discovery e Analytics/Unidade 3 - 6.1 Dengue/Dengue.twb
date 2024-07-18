@@ -1,0 +1,1223 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0613.1930                               -->
+<workbook original-version='18.1' source-build='2024.2.0 (20242.24.0613.1930)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='FATO_DENGUE (Base de Dados [DENGUE_SSBI])' inline='true' name='federated.0vzjydx0ijxehz12d0pq10cqp0fe' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Base de Dados [DENGUE_SSBI]' name='excel-direct.0fcetqd14pb6q112vjo210sgwkkd'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/jean_/Downloads/Base de Dados [DENGUE_SSBI].xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0fcetqd14pb6q112vjo210sgwkkd' name='FATO_DENGUE' table='[FATO_DENGUE$]' type='table'>
+          <columns gridOrigin='A1:E651:no:A1:E651:0' header='yes' outcome='6'>
+            <column datatype='integer' name='TEMPO_ANO' ordinal='0' />
+            <column datatype='string' name='ESTADO' ordinal='1' />
+            <column datatype='string' name='REGIAO' ordinal='2' />
+            <column datatype='string' name='PAIS' ordinal='3' />
+            <column datatype='integer' name='QTD_CASOS' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0fcetqd14pb6q112vjo210sgwkkd' name='FATO_DENGUE' table='[FATO_DENGUE$]' type='table'>
+          <columns gridOrigin='A1:E651:no:A1:E651:0' header='yes' outcome='6'>
+            <column datatype='integer' name='TEMPO_ANO' ordinal='0' />
+            <column datatype='string' name='ESTADO' ordinal='1' />
+            <column datatype='string' name='REGIAO' ordinal='2' />
+            <column datatype='string' name='PAIS' ordinal='3' />
+            <column datatype='integer' name='QTD_CASOS' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[FATO_DENGUE]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:E651:no:A1:E651:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TEMPO_ANO</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TEMPO_ANO]</local-name>
+            <parent-name>[FATO_DENGUE]</parent-name>
+            <remote-alias>TEMPO_ANO</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FATO!DENGUE_070500144DFA468DBFDDDCD3DBC6C97A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ESTADO</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ESTADO]</local-name>
+            <parent-name>[FATO_DENGUE]</parent-name>
+            <remote-alias>ESTADO</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FATO!DENGUE_070500144DFA468DBFDDDCD3DBC6C97A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>REGIAO</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[REGIAO]</local-name>
+            <parent-name>[FATO_DENGUE]</parent-name>
+            <remote-alias>REGIAO</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FATO!DENGUE_070500144DFA468DBFDDDCD3DBC6C97A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PAIS</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PAIS]</local-name>
+            <parent-name>[FATO_DENGUE]</parent-name>
+            <remote-alias>PAIS</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FATO!DENGUE_070500144DFA468DBFDDDCD3DBC6C97A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QTD_CASOS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[QTD_CASOS]</local-name>
+            <parent-name>[FATO_DENGUE]</parent-name>
+            <remote-alias>QTD_CASOS</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FATO!DENGUE_070500144DFA468DBFDDDCD3DBC6C97A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Estado' datatype='string' name='[ESTADO]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Pais' datatype='string' name='[PAIS]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Qtd Casos' datatype='integer' name='[QTD_CASOS]' role='measure' type='quantitative' />
+      <column caption='Região' datatype='string' name='[REGIAO]' role='dimension' type='nominal' />
+      <column caption='Ano' datatype='integer' name='[TEMPO_ANO]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='FATO_DENGUE' datatype='table' name='[__tableau_internal_object_id__].[FATO!DENGUE_070500144DFA468DBFDDDCD3DBC6C97A]' role='measure' type='quantitative' />
+      <column-instance column='[REGIAO]' derivation='None' name='[none:REGIAO:nk]' pivot='key' type='nominal' />
+      <column-instance column='[TEMPO_ANO]' derivation='None' name='[none:TEMPO_ANO:ok]' pivot='key' type='ordinal' />
+      <group caption='Ação (Ano)' hidden='true' name='[Action (Ano)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:TEMPO_ANO:ok]' />
+        </groupfilter>
+      </group>
+      <group caption='Ação (Região)' hidden='true' name='[Action (Região)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[REGIAO]' />
+        </groupfilter>
+      </group>
+      <drill-paths>
+        <drill-path name='Geografia'>
+          <field>[PAIS]</field>
+          <field>[ESTADO]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='100' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Calculation_1488721192039825408:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>true</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>false</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:REGIAO:nk]' type='palette'>
+            <map to='#ae123a'>
+              <bucket>&quot;Região Sul&quot;</bucket>
+            </map>
+            <map to='#d9303f'>
+              <bucket>&quot;Região Sudeste&quot;</bucket>
+            </map>
+            <map to='#f26250'>
+              <bucket>&quot;Região Norte&quot;</bucket>
+            </map>
+            <map to='#fb927c'>
+              <bucket>&quot;Região Nordeste&quot;</bucket>
+            </map>
+            <map to='#ffbeb2'>
+              <bucket>&quot;Região Centro-Oeste&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Brasil&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='FATO_DENGUE' id='FATO!DENGUE_070500144DFA468DBFDDDCD3DBC6C97A'>
+            <properties context=''>
+              <relation connection='excel-direct.0fcetqd14pb6q112vjo210sgwkkd' name='FATO_DENGUE' table='[FATO_DENGUE$]' type='table'>
+                <columns gridOrigin='A1:E651:no:A1:E651:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='TEMPO_ANO' ordinal='0' />
+                  <column datatype='string' name='ESTADO' ordinal='1' />
+                  <column datatype='string' name='REGIAO' ordinal='2' />
+                  <column datatype='string' name='PAIS' ordinal='3' />
+                  <column datatype='integer' name='QTD_CASOS' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Filtro Região' name='[Action1_1A7487BAB3E64C2288F73DD804AD7545]'>
+      <activation type='on-select' />
+      <source dashboard='Casos de Dengue' type='sheet' worksheet='Região' />
+      <command command='tsc:tsl-filter'>
+        <param name='exclude' value='Total de Casos' />
+        <param name='special-fields' value='all' />
+        <param name='target' value='Casos de Dengue' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Casos por Região'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='FATO_DENGUE (Base de Dados [DENGUE_SSBI])' name='federated.0vzjydx0ijxehz12d0pq10cqp0fe' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0vzjydx0ijxehz12d0pq10cqp0fe'>
+            <column caption='Qtd Casos' datatype='integer' name='[QTD_CASOS]' role='measure' type='quantitative' />
+            <column caption='Região' datatype='string' name='[REGIAO]' role='dimension' type='nominal' />
+            <column-instance column='[REGIAO]' derivation='None' name='[none:REGIAO:nk]' pivot='key' type='nominal' />
+            <column-instance column='[QTD_CASOS]' derivation='Sum' name='[sum:QTD_CASOS:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[none:REGIAO:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[sum:QTD_CASOS:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[sum:QTD_CASOS:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows total='true'>[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[none:REGIAO:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{9CA67C3B-9369-47F6-8F45-7F8EAD19478A}' />
+    </worksheet>
+    <worksheet name='Casos por UF'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='FATO_DENGUE (Base de Dados [DENGUE_SSBI])' name='federated.0vzjydx0ijxehz12d0pq10cqp0fe' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0vzjydx0ijxehz12d0pq10cqp0fe'>
+            <column caption='Estado' datatype='string' name='[ESTADO]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column caption='Pais' datatype='string' name='[PAIS]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Qtd Casos' datatype='integer' name='[QTD_CASOS]' role='measure' type='quantitative' />
+            <column caption='Região' datatype='string' name='[REGIAO]' role='dimension' type='nominal' />
+            <column-instance column='[ESTADO]' derivation='None' name='[none:ESTADO:nk]' pivot='key' type='nominal' />
+            <column-instance column='[PAIS]' derivation='None' name='[none:PAIS:nk]' pivot='key' type='nominal' />
+            <column-instance column='[REGIAO]' derivation='None' name='[none:REGIAO:nk]' pivot='key' type='nominal' />
+            <column-instance column='[QTD_CASOS]' derivation='Sum' name='[sum:QTD_CASOS:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[Action (Região)]'>
+            <groupfilter function='member' level='[REGIAO]' member='&quot;Região Sudeste&quot;' user:ui-action-filter='[Action1_1A7487BAB3E64C2288F73DD804AD7545]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[none:REGIAO:nk]'>
+            <groupfilter function='level-members' level='[none:REGIAO:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[none:REGIAO:nk]</column>
+            <column>[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[Action (Região)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[sum:QTD_CASOS:qk]' palette='red_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[none:PAIS:nk]' />
+              <lod column='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[none:ESTADO:nk]' />
+              <color column='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[sum:QTD_CASOS:qk]' />
+              <geometry column='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[Latitude (generated)]</rows>
+        <cols>[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{1E4E99D7-81DF-43AB-A924-5C1637E287CD}' />
+    </worksheet>
+    <worksheet name='Distribuição de Qtd Casos na marca analisada de 2013'>
+      <layout-options export-color-legend='false' export-map-legend='false' export-no-caption='true' export-no-title='true' export-shape-legend='false' export-size-legend='false'>
+        <title>
+          <formatted-text>
+            <run>Distribuição de Qtd Casos na marca analisada de 2013</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run>Este gráfico mostra todos os registros de Qtd Casos para 2013. O valor extremo 416.252 está destacado.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='FATO_DENGUE (Base de Dados [DENGUE_SSBI])' name='federated.0vzjydx0ijxehz12d0pq10cqp0fe' />
+          </datasources>
+          <mapsources>
+            <mapsource name='' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0vzjydx0ijxehz12d0pq10cqp0fe'>
+            <column caption='Valor extremo' datatype='boolean' name='[Calculation_1488721192039825408]' role='dimension' type='nominal' user:unnamed='Distribuição de Qtd Casos na marca analisada de 2013'>
+              <calculation class='tableau' formula='// Valor extremo &#10;IF [QTD_CASOS] &gt; 318586.5&#10;THEN TRUE&#10;ELSE FALSE&#10;END' />
+              <aliases>
+                <alias key='false' value='Outros' />
+                <alias key='true' value='Extremo' />
+              </aliases>
+            </column>
+            <column caption='Qtd Casos' datatype='integer' name='[QTD_CASOS]' role='measure' type='quantitative' />
+            <column caption='Ano' datatype='integer' name='[TEMPO_ANO]' role='dimension' type='quantitative' />
+            <column-instance column='[QTD_CASOS]' derivation='Count' name='[cnt:QTD_CASOS:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1488721192039825408]' derivation='None' name='[none:Calculation_1488721192039825408:nk]' pivot='key' type='nominal' />
+            <column-instance column='[QTD_CASOS]' derivation='None' name='[none:QTD_CASOS:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TEMPO_ANO]' derivation='None' name='[none:TEMPO_ANO:ok]' pivot='key' type='ordinal' />
+            <style>
+              <style-rule element='mark'>
+                <encoding attr='color' field='[none:Calculation_1488721192039825408:nk]' type='palette'>
+                  <map to='#4e79a7'>
+                    <bucket>true</bucket>
+                  </map>
+                  <map to='#bab0ac'>
+                    <bucket>false</bucket>
+                  </map>
+                </encoding>
+              </style-rule>
+            </style>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[none:TEMPO_ANO:ok]'>
+            <groupfilter function='member' level='[none:TEMPO_ANO:ok]' member='2013' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[none:TEMPO_ANO:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' value='160' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#666666' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='color' value='#333333' />
+          </style-rule>
+          <style-rule element='annotation'>
+            <format attr='color' value='#333333' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <tooltip column='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[cnt:QTD_CASOS:qk]' />
+              <color column='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[none:Calculation_1488721192039825408:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[none:QTD_CASOS:qk]' enable-instant-analytics='false' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-table' value-column='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[none:QTD_CASOS:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.40000000596046448' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[none:QTD_CASOS:qk]</cols>
+        <annotations>
+          <annotation class='point' id='0' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run bold='true' fontalignment='0' fontsize='8'>416.252</run>
+              <run fontalignment='0' fontsize='8'>Æ&#10;</run>
+              <run fontalignment='0' fontsize='8'>Esse registro altera o valor agregado de 1.024.286 para 1.440.538.</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[none:QTD_CASOS:qk]</field>
+                      </x-fields>
+                      <y-fields />
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[cnt:QTD_CASOS:qk]</field>
+                      <field>[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[none:Calculation_1488721192039825408:nk]</field>
+                      <field>[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[none:QTD_CASOS:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>1</value>
+                    <value>true</value>
+                    <value>416252</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-120' y='-140' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{1147B579-1674-4309-A4EB-E7DE4915E12F}' />
+    </worksheet>
+    <worksheet name='Evolução de Casos'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='FATO_DENGUE (Base de Dados [DENGUE_SSBI])' name='federated.0vzjydx0ijxehz12d0pq10cqp0fe' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0vzjydx0ijxehz12d0pq10cqp0fe'>
+            <column caption='Qtd Casos' datatype='integer' name='[QTD_CASOS]' role='measure' type='quantitative' />
+            <column caption='Região' datatype='string' name='[REGIAO]' role='dimension' type='nominal' />
+            <column caption='Ano' datatype='integer' name='[TEMPO_ANO]' role='dimension' type='quantitative' />
+            <column-instance column='[TEMPO_ANO]' derivation='None' name='[none:TEMPO_ANO:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[QTD_CASOS]' derivation='Sum' name='[sum:QTD_CASOS:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[Action (Região)]'>
+            <groupfilter function='member' level='[REGIAO]' member='&quot;Região Sudeste&quot;' user:ui-action-filter='[Action1_1A7487BAB3E64C2288F73DD804AD7545]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[Action (Região)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[sum:QTD_CASOS:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[sum:QTD_CASOS:qk]' palette='red_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[sum:QTD_CASOS:qk]' />
+              <text column='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[sum:QTD_CASOS:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[sum:QTD_CASOS:qk]</rows>
+        <cols>[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[none:TEMPO_ANO:qk]</cols>
+      </table>
+      <simple-id uuid='{F0599286-60BD-4CB5-9832-539B51458D2E}' />
+    </worksheet>
+    <worksheet name='Região'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='FATO_DENGUE (Base de Dados [DENGUE_SSBI])' name='federated.0vzjydx0ijxehz12d0pq10cqp0fe' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0vzjydx0ijxehz12d0pq10cqp0fe'>
+            <column caption='Qtd Casos' datatype='integer' name='[QTD_CASOS]' role='measure' type='quantitative' />
+            <column caption='Região' datatype='string' name='[REGIAO]' role='dimension' type='nominal' />
+            <column-instance column='[REGIAO]' derivation='None' name='[none:REGIAO:nk]' pivot='key' type='nominal' />
+            <column-instance column='[QTD_CASOS]' derivation='Sum' name='[sum:QTD_CASOS:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[none:REGIAO:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[sum:QTD_CASOS:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[sum:QTD_CASOS:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[none:REGIAO:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[sum:QTD_CASOS:qk]</rows>
+        <cols>[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[none:REGIAO:nk]</cols>
+      </table>
+      <simple-id uuid='{0FD0E2CE-8713-40E3-9ACF-FB9C22F56CDF}' />
+    </worksheet>
+    <worksheet name='Total de Casos'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='FATO_DENGUE (Base de Dados [DENGUE_SSBI])' name='federated.0vzjydx0ijxehz12d0pq10cqp0fe' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0vzjydx0ijxehz12d0pq10cqp0fe'>
+            <column caption='Qtd Casos' datatype='integer' name='[QTD_CASOS]' role='measure' type='quantitative' />
+            <column-instance column='[QTD_CASOS]' derivation='Sum' name='[sum:QTD_CASOS:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-decoration' data-class='total' value='underline' />
+            <format attr='text-align' value='center' />
+            <format attr='vertical-align' value='center' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='36' />
+            <format attr='font-weight' value='bold' />
+            <format attr='color' value='#e15759' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[sum:QTD_CASOS:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{CCBAEACE-15A2-4134-A055-7ED7527ABEDA}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Casos de Dengue'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>&lt;Sheet Name&gt;&#10;</run>
+            <run fontalignment='1' fontsize='14'>Anos: 1990 a 2014</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98214' id='16' param='vert' type-v2='layout-flow' w='99064' x='468' y='893'>
+            <zone h='7589' id='17' type-v2='title' w='99064' x='468' y='893'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='90625' id='8' param='horz' type-v2='layout-flow' w='99064' x='468' y='8482'>
+              <zone h='90625' id='6' type-v2='layout-basic' w='99064' x='468' y='8482'>
+                <zone h='18226' id='3' name='Total de Casos' w='49532' x='468' y='8482'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='34703' id='5' name='Região' w='49532' x='50000' y='8482'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='55922' id='13' name='Evolução de Casos' w='49532' x='50000' y='43185'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='72399' id='14' name='Casos por UF' w='49532' x='468' y='26708'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontalignment='1'>&lt;Sheet Name&gt;&#10;</run>
+                <run fontalignment='1' fontsize='14'>Anos: 1990 a 2014</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1100' minheight='1100' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='19' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98214' id='18' param='vert' type-v2='layout-flow' w='99064' x='468' y='893'>
+                <zone h='7589' id='17' type-v2='title' w='99064' x='468' y='893'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='138' h='18226' id='3' is-fixed='true' name='Total de Casos' w='49532' x='468' y='8482'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='269' h='34703' id='5' is-fixed='true' name='Região' w='49532' x='50000' y='8482'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='72399' id='14' is-fixed='true' name='Casos por UF' w='49532' x='468' y='26708'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='55922' id='13' is-fixed='true' name='Evolução de Casos' w='49532' x='50000' y='43185'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{188ECBE1-4DBD-47D2-97A4-4436B3DEFEBE}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Região'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[none:REGIAO:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{9B2E1FC6-F6C8-489C-B285-01CAE9AA2414}' />
+    </window>
+    <window class='worksheet' name='Casos por Região'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{284BE61F-A90D-440E-A73E-DB5384726F10}' />
+    </window>
+    <window class='worksheet' name='Evolução de Casos'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[sum:QTD_CASOS:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CB1ECCE2-1C6F-4317-94BB-2FB61AF731E7}' />
+    </window>
+    <window class='worksheet' name='Casos por UF'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card mode='radiolist' param='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[none:REGIAO:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[sum:QTD_CASOS:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8099667A-843B-4470-AD25-34BA67D01C97}' />
+    </window>
+    <window class='worksheet' name='Total de Casos'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{28017735-3BF7-46D3-AC81-8D56AA2A2AB9}' />
+    </window>
+    <window class='worksheet' name='Distribuição de Qtd Casos na marca analisada de 2013'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='160'>
+            <card type='caption' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0vzjydx0ijxehz12d0pq10cqp0fe].[none:Calculation_1488721192039825408:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{1E1937F1-4B27-4574-A164-A3AABAC3C09E}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Casos de Dengue'>
+      <viewpoints>
+        <viewpoint name='Casos por UF'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Evolução de Casos'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Região'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total de Casos'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='5' />
+      <simple-id uuid='{537935C4-E82D-437C-BE6C-197EA3E0B912}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Casos de Dengue' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
